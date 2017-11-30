@@ -1,9 +1,9 @@
 # CSS/SVG
-##Objective
+## Objective
 
 The objective is to create this identical animation using CSS animations instead of JavaScript that has the ability to be both responsive and used cross-browser.
 
-##Directions
+## Directions
 
 Clone this repo and open index.html to see the desired final animation. Currently this uses an SVG and is animated through an SVG JavaScript plugin: https://github.com/callmenick/Draw-Fill-SVG. 
 1. `js/modernizr.js` is something that Draw Fill SVG requires.
