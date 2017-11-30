@@ -1,0 +1,31 @@
+#lineE {
+  stroke-dasharray: 449.082;
+  stroke-dashoffset: 449.082;
+}
+#letterE {
+  stroke-dasharray: 1729.44;
+  stroke-dashoffset: 1729.44;
+}
+#letterD {
+  stroke-dasharray: 1981.06;
+  stroke-dashoffset: 1981.06;
+}
+#letterN {
+  stroke-dasharray: 1351.74;
+  stroke-dashoffset: 1351.74;
+}
+.letter {
+  stroke-opacity: 1;
+  fill-opacity: 0;
+  animation: dash 2s ease-in-out forwards, fadein 3s ease-in-out forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes fadein{
+  0% {fill-opacity: 0; stroke-opacity: 1;}
+  66% {fill-opacity: 0; stroke-opacity: 1;}
+  100% {fill-opacity: 1; stroke-opacity: 0;}
+}
